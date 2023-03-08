@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tasty Treats</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/dd25addd3c.js"
+      crossorigin="anonymous"
+    ></script>
+    
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <header class="main-header">
+      <section class="nav-logo">
+        <a href="index.html"
+          ><i class="fa-solid fa-utensils"></i>Tasty Treats</a
+        >
+      </section>
+      <nav class="nav-list">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="#">Product</a></li>
+          <li><a href="#">Promo</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </nav>
+      <a href="#"><i class="fa-solid fa-magnifying-glass"></i></a>
+      <a href="#side-drawer" class=".side-drawer menu-btn">
+        <span></span>
+        <span></span>
+        <span></span>
+      </a>
+    </header>
+
+    <aside id="side-drawer" class="side-drawer">
+      <a href="#" class="menu-btn">
+        <span></span>
+        <span></span>
+        <span></span>
+      </a>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="#">Product</a></li>
+          <li><a href="#">Promo</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </nav>
+    </aside>
+
+<!-- Hero -->
+    <main>
+      <section class="main-header-content">
+        <h1>Delicious Delights</h1>
+        <p>Indulge in Our Exquisite Menu</p>
+        <a href="#" class="btn">Order Now</a>
+      </section>
+    </main>
+
+    <!-- Menu highlights section -->
+    <section class="menu-highlights">
+      <header>
+        <h2>Popular Menu</h2>
+        <p>
+          Come and indulge in our delectable menu at Tasty Treats. Our dishes
+          are crafted with the freshest and highest quality ingredients.
+        </p>
+      </header>
+      <ul class="menu-highlights-list">
+        <li>
+          <img src="assets/menu-highlights-salad.jpg" alt="Salad" />
+          <h3>Mixed Greens Salad</h3>
+          <p>A light and refreshing salad featuring ripe and juicy tomatoes</p>
+        </li>
+        <li>
+          <img src="assets/menu-highlights-steak.jpg" alt="Steak" />
+          <h3>Grilled Steak</h3>
+          <p>
+            Juicy grilled steak served alongside a colorful medley of perfectly
+            roasted vegetables.
+          </p>
+        </li>
+        <li>
+          <img src="assets/menu-highlights-sushi.jpg" alt="Sushi" />
+          <h3>Spicy Tuna Rolls</h3>
+          <p>
+            Indulge in our Spicy Tuna Roll, a classic sushi roll that's packed
+            with flavor.
+          </p>
+        </li>
+      </ul>
+    </section>
+
+    <!-- Menu item 1 -->
+    <section class="menu-item">
+      <article class="menu-item-content">
+        <img src="assets/menu-highlights-salad.jpg" alt="Salad" />
+        <header class="menu-item-header">
+          <h2>Mixed Greens Salad</h2>
+          <p>A light and refreshing salad featuring ripe and juicy tomatoes</p>
+          <a href="#" class="btn">Order Now</a>
+        </header>
+      </article>
+    </section>
+
+    <!-- Statistics section -->
+    <section class="statistics">
+      <header>
+        <h2>Statistics</h2>
+        <p>
+          Tasty Treats is a renowned restaurant chain with a presence in 123
+          locations. Our menu boasts over 100 delectable items, carefully
+          crafted by our team of 200 skilled chefs.
+        </p>
+      </header>
+      <ul class="statistics-list">
+        <li>
+          <p>123</p>
+          <p>store</p>
+        </li>
+        <li>
+          <p>100</p>
+          <p>menu</p>
+        </li>
+        <li>
+          <p>200</p>
+          <p>chef</p>
+        </li>
+      </ul>
+    </section>
+
+    <!-- Menu item 2 -->
+    <section class="menu-item">
+      <article class="menu-item-content flex-row-reverse">
+        <img src="assets/menu-highlights-steak.jpg" alt="Steak" />
+        <header class="menu-item-header">
+          <h2>Grilled Steak</h2>
+          <p>
+            Juicy grilled steak served alongside a colorful medley of perfectly
+            roasted vegetables.
+          </p>
+          <a href="#" class="btn">Order Now</a>
+        </header>
+      </article>
+    </section>
+
+    <!-- Food Review -->
+    <section class="food-review">
+      <article>
+        <img src="assets/food-critic.jpg" alt="Food Critic" />
+        <p>
+          Tasty Treats is a true culinary delight! The menu offers a wonderful
+          range of delicious dishes that are both satisfying and flavorful.
+        </p>
+        <p>John Doe</p>
+      </article>
+    </section>
+
+    <!-- Form -->
+    <section class="form-section">
+      <h2>Contact Us</h2>
+      <p>
+        Whether you have a question about one of our products, need assistance
+        with an order, or just want to provide feedback on your Tasty Treats
+        experience, we're here to help.
+      </p>
+      <!-- <form class="form" action="/" method="GET"></form> -->
+      <form class="form">
+        <input type="text" name="user-name" placeholder="Your Name" required />
+        <input
+          type="email"
+          name="user-email"
+          placeholder="Your Email"
+          required
+        />
+        <label for="user-date-of-birth">Your Birthdate:</label>
+        <input
+          type="date"
+          name="user-date-of-birth"
+          id="user-date-of-birth"
+          placeholder="Date of Birth"
+          min="1899-01-01"
+          max="2023-01-01"
+          required
+        />
+        <input type="text" name="user-id" placeholder="Your ID" required />
+        <input
+          type="text"
+          name="user-country"
+          placeholder="Your Country"
+          required
+        />
+        <button class="btn submit">Submit</button>
+      </form>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+      <section class="social-media">
+        <h5>Title Here</h5>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere quae
+          cupiditate animi, libero, esse voluptas quibusda.
+        </p>
+        <ul>
+          <li>
+            <ul class="footer-icons-list">
+              <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+              <li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
+              <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+              <li><a href="#"><i class="fa-brands fa-whatsapp"></i></a></li>
+            </ul>
+          </li>
+        </ul>
+      </section>
+
+      <section class="footer-links-column">
+        <p>About</p>
+        <ul class="footer-links-list">
+          <li><a href="#">History</a></li>
+          <li><a href="#">Our Team</a></li>
+          <li><a href="#">Brand Guidelines</a></li>
+          <li><a href="#">Terms & Condition</a></li>
+          <li><a href="#">Privacy Policy</a></li>
+        </ul>
+      </section>
+
+      <section class="footer-links-column">
+        <p>Services</p>
+        <ul class="footer-links-list">
+          <li><a href="#">How to Order</a></li>
+          <li><a href="#">Our Product</a></li>
+          <li><a href="#">Order Status</a></li>
+          <li><a href="#">Promo</a></li>
+          <li><a href="#">Payment Method</a></li>
+        </ul>
+      </section>
+
+      <section class="footer-links-column">
+        <p>Other</p>
+        <ul class="footer-links-list">
+          <li><a href="#">Contact Us</a></li>
+          <li><a href="#">Help</a></li>
+          <li><a href="#">Privacy</a></li>
+        </ul>
+      </section>
+
+    </footer>
+
+    <script src="js/script.js"></script>
+  </body>
+</html>
